@@ -1,0 +1,7 @@
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\APictures.csproj.AssemblyReference.cache
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\APictures.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Login.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Navi.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\APictures.csproj.GenerateResource.cache
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Release\WindowsFormsApp3.exe.licenses
