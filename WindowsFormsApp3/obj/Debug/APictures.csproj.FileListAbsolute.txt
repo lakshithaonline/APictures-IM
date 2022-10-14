@@ -43,7 +43,6 @@ C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\bi
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\APictures.csproj.AssemblyReference.cache
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\APictures.csproj.SuggestedBindingRedirects.cache
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Login.resources
-C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Navi.resources
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\APictures.csproj.GenerateResource.cache
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe.licenses
@@ -55,3 +54,7 @@ C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\bi
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Products.resources
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Category.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Customer.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Order_History.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Orders.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Dashboard.resources
