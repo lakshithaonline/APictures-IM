@@ -30,16 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.bunifuColorTransition1 = new Bunifu.UI.WinForms.BunifuColorTransition(this.components);
+            this.bunifuPanel5 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel6 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.Date_dash = new Bunifu.UI.WinForms.BunifuDatePicker();
@@ -60,7 +61,6 @@
             this.Products_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.Category_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.Dashboard_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.bunifuPanel5 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPanel6.SuspendLayout();
             this.bunifuPanel2.SuspendLayout();
             this.bunifuPanel4.SuspendLayout();
@@ -139,6 +139,21 @@
             this.bunifuColorTransition1.ProgessValue = 0;
             this.bunifuColorTransition1.StartColor = System.Drawing.Color.White;
             this.bunifuColorTransition1.TransitionControl = null;
+            // 
+            // bunifuPanel5
+            // 
+            this.bunifuPanel5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.bunifuPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel5.BackgroundImage")));
+            this.bunifuPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
+            this.bunifuPanel5.BorderRadius = 20;
+            this.bunifuPanel5.BorderThickness = 0;
+            this.bunifuPanel5.Location = new System.Drawing.Point(200, 31);
+            this.bunifuPanel5.Name = "bunifuPanel5";
+            this.bunifuPanel5.ShowBorders = true;
+            this.bunifuPanel5.Size = new System.Drawing.Size(1064, 650);
+            this.bunifuPanel5.TabIndex = 30;
+            this.bunifuPanel5.Click += new System.EventHandler(this.bunifuPanel5_Click);
             // 
             // bunifuPanel6
             // 
@@ -337,11 +352,11 @@
             this.Exit_dash.ColorContrastOnClick = 45;
             this.Exit_dash.ColorContrastOnHover = 45;
             this.Exit_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.Exit_dash.CustomizableEdges = borderEdges9;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.Exit_dash.CustomizableEdges = borderEdges1;
             this.Exit_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Exit_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Exit_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -427,11 +442,11 @@
             this.Settings_dash.ColorContrastOnClick = 45;
             this.Settings_dash.ColorContrastOnHover = 45;
             this.Settings_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.Settings_dash.CustomizableEdges = borderEdges10;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.Settings_dash.CustomizableEdges = borderEdges2;
             this.Settings_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Settings_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Settings_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -550,11 +565,11 @@
             this.OrderHistory_dash.ColorContrastOnClick = 45;
             this.OrderHistory_dash.ColorContrastOnHover = 45;
             this.OrderHistory_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges11.BottomLeft = true;
-            borderEdges11.BottomRight = true;
-            borderEdges11.TopLeft = true;
-            borderEdges11.TopRight = true;
-            this.OrderHistory_dash.CustomizableEdges = borderEdges11;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.OrderHistory_dash.CustomizableEdges = borderEdges3;
             this.OrderHistory_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.OrderHistory_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.OrderHistory_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -619,6 +634,7 @@
             this.OrderHistory_dash.TextMarginLeft = 0;
             this.OrderHistory_dash.TextPadding = new System.Windows.Forms.Padding(0);
             this.OrderHistory_dash.UseDefaultRadiusAndThickness = true;
+            this.OrderHistory_dash.Click += new System.EventHandler(this.OrderHistory_dash_Click);
             // 
             // Order_dash
             // 
@@ -639,11 +655,11 @@
             this.Order_dash.ColorContrastOnClick = 45;
             this.Order_dash.ColorContrastOnHover = 45;
             this.Order_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges12.BottomLeft = true;
-            borderEdges12.BottomRight = true;
-            borderEdges12.TopLeft = true;
-            borderEdges12.TopRight = true;
-            this.Order_dash.CustomizableEdges = borderEdges12;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.Order_dash.CustomizableEdges = borderEdges4;
             this.Order_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Order_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Order_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -708,6 +724,7 @@
             this.Order_dash.TextMarginLeft = 0;
             this.Order_dash.TextPadding = new System.Windows.Forms.Padding(0);
             this.Order_dash.UseDefaultRadiusAndThickness = true;
+            this.Order_dash.Click += new System.EventHandler(this.Order_dash_Click);
             // 
             // Customer_dash
             // 
@@ -728,11 +745,11 @@
             this.Customer_dash.ColorContrastOnClick = 45;
             this.Customer_dash.ColorContrastOnHover = 45;
             this.Customer_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges13.BottomLeft = true;
-            borderEdges13.BottomRight = true;
-            borderEdges13.TopLeft = true;
-            borderEdges13.TopRight = true;
-            this.Customer_dash.CustomizableEdges = borderEdges13;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.Customer_dash.CustomizableEdges = borderEdges5;
             this.Customer_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Customer_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Customer_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -797,6 +814,7 @@
             this.Customer_dash.TextMarginLeft = 0;
             this.Customer_dash.TextPadding = new System.Windows.Forms.Padding(0);
             this.Customer_dash.UseDefaultRadiusAndThickness = true;
+            this.Customer_dash.Click += new System.EventHandler(this.Customer_dash_Click);
             // 
             // Products_dash
             // 
@@ -817,11 +835,11 @@
             this.Products_dash.ColorContrastOnClick = 45;
             this.Products_dash.ColorContrastOnHover = 45;
             this.Products_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges14.BottomLeft = true;
-            borderEdges14.BottomRight = true;
-            borderEdges14.TopLeft = true;
-            borderEdges14.TopRight = true;
-            this.Products_dash.CustomizableEdges = borderEdges14;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.Products_dash.CustomizableEdges = borderEdges6;
             this.Products_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Products_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Products_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -886,6 +904,7 @@
             this.Products_dash.TextMarginLeft = 0;
             this.Products_dash.TextPadding = new System.Windows.Forms.Padding(0);
             this.Products_dash.UseDefaultRadiusAndThickness = true;
+            this.Products_dash.Click += new System.EventHandler(this.Products_dash_Click);
             // 
             // Category_dash
             // 
@@ -906,11 +925,11 @@
             this.Category_dash.ColorContrastOnClick = 45;
             this.Category_dash.ColorContrastOnHover = 45;
             this.Category_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges15.BottomLeft = true;
-            borderEdges15.BottomRight = true;
-            borderEdges15.TopLeft = true;
-            borderEdges15.TopRight = true;
-            this.Category_dash.CustomizableEdges = borderEdges15;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.Category_dash.CustomizableEdges = borderEdges7;
             this.Category_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Category_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Category_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -996,11 +1015,11 @@
             this.Dashboard_dash.ColorContrastOnClick = 45;
             this.Dashboard_dash.ColorContrastOnHover = 45;
             this.Dashboard_dash.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges16.BottomLeft = true;
-            borderEdges16.BottomRight = true;
-            borderEdges16.TopLeft = true;
-            borderEdges16.TopRight = true;
-            this.Dashboard_dash.CustomizableEdges = borderEdges16;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.Dashboard_dash.CustomizableEdges = borderEdges8;
             this.Dashboard_dash.DialogResult = System.Windows.Forms.DialogResult.None;
             this.Dashboard_dash.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Dashboard_dash.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -1066,21 +1085,6 @@
             this.Dashboard_dash.TextPadding = new System.Windows.Forms.Padding(0);
             this.Dashboard_dash.UseDefaultRadiusAndThickness = true;
             this.Dashboard_dash.Click += new System.EventHandler(this.Dashboard_dash_Click_1);
-            // 
-            // bunifuPanel5
-            // 
-            this.bunifuPanel5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.bunifuPanel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel5.BackgroundImage")));
-            this.bunifuPanel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.bunifuPanel5.BorderRadius = 20;
-            this.bunifuPanel5.BorderThickness = 0;
-            this.bunifuPanel5.Location = new System.Drawing.Point(200, 31);
-            this.bunifuPanel5.Name = "bunifuPanel5";
-            this.bunifuPanel5.ShowBorders = true;
-            this.bunifuPanel5.Size = new System.Drawing.Size(1064, 650);
-            this.bunifuPanel5.TabIndex = 30;
-            this.bunifuPanel5.Click += new System.EventHandler(this.bunifuPanel5_Click);
             // 
             // Dashboard
             // 

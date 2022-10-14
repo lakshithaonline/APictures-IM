@@ -71,17 +71,37 @@ namespace WindowsFormsApp3
         }
         private void Category_dash_Click(object sender, EventArgs e)
         {
-            loadform(new Display_Test());
+            
         }
 
         private void Dashboard_dash_Click_1(object sender, EventArgs e)
         {
-            loadform(new Display_Test02());
+            
         }
 
         private void Category_dash_Click_1(object sender, EventArgs e)
         {
-            loadform(new Display_Test());
+            loadform(new sub_category());
+        }
+
+        private void Products_dash_Click(object sender, EventArgs e)
+        {
+            loadform(new sub_products());
+        }
+
+        private void Customer_dash_Click(object sender, EventArgs e)
+        {
+            loadform(new sub_customer());
+        }
+
+        private void Order_dash_Click(object sender, EventArgs e)
+        {
+            loadform(new sub_order());
+        }
+
+        private void OrderHistory_dash_Click(object sender, EventArgs e)
+        {
+            loadform(new sub_orderhistory());
         }
     }
 }
