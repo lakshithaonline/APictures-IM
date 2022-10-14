@@ -51,4 +51,7 @@ C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\ob
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\APictures.csproj.CopyComplete
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
-C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Products.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Category.resources

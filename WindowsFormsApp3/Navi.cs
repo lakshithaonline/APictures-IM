@@ -82,5 +82,35 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void bunifuLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPanel5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPanel6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

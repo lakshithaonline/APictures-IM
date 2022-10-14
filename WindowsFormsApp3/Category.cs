@@ -11,14 +11,14 @@ using ComponentFactory.Krypton.Toolkit;
 
 namespace WindowsFormsApp3
 {
-    public partial class Form1 : KryptonForm
+    public partial class Category : KryptonForm
     {
-        public Form1()
+        public Category()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Category_Load(object sender, EventArgs e)
         {
 
         }
