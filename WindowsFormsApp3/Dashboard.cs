@@ -17,6 +17,18 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+        public void loadform(object form)
+        {
+            if (this.bunifuPanel5.Controls.Count > 0)
+                this.bunifuPanel5.Controls.RemoveAt(0);
+            Form f = form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.bunifuPanel5.Controls.Add(f);
+            this.bunifuPanel5.Tag = f;
+            f.Show();
+
+        }
 
         private void Navi_Load(object sender, EventArgs e)
         {
@@ -56,6 +68,20 @@ namespace WindowsFormsApp3
         private void bunifuPanel1_Click(object sender, EventArgs e)
         {
 
+        }
+        private void Category_dash_Click(object sender, EventArgs e)
+        {
+            loadform(new Display_Test());
+        }
+
+        private void Dashboard_dash_Click_1(object sender, EventArgs e)
+        {
+            loadform(new Display_Test02());
+        }
+
+        private void Category_dash_Click_1(object sender, EventArgs e)
+        {
+            loadform(new Display_Test());
         }
     }
 }
