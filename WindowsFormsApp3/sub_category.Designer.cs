@@ -95,9 +95,10 @@
             // 
             this.Category_lbl.AllowParentOverrides = false;
             this.Category_lbl.AutoEllipsis = false;
+            this.Category_lbl.Cursor = System.Windows.Forms.Cursors.Default;
             this.Category_lbl.CursorType = System.Windows.Forms.Cursors.Default;
             this.Category_lbl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Category_lbl.Location = new System.Drawing.Point(440, 254);
+            this.Category_lbl.Location = new System.Drawing.Point(469, 294);
             this.Category_lbl.Name = "Category_lbl";
             this.Category_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Category_lbl.Size = new System.Drawing.Size(88, 30);
@@ -105,6 +106,7 @@
             this.Category_lbl.Text = "Category";
             this.Category_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.Category_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.Category_lbl.Click += new System.EventHandler(this.Category_lbl_Click);
             // 
             // sub_category
             // 

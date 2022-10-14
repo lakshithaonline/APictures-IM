@@ -53,3 +53,5 @@ C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\ob
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sub_order.resources
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sub_orderhistory.resources
 C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sub_products.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sub_settings.resources
+C:\Users\Lakshitha\Source\Repos\lakshithaonline\APictures-IM\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.sub_dashboard.resources

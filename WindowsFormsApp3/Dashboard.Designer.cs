@@ -61,6 +61,8 @@
             this.Products_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.Category_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.Dashboard_dash = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.dashboard_lbl = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuPanel5.SuspendLayout();
             this.bunifuPanel6.SuspendLayout();
             this.bunifuPanel2.SuspendLayout();
             this.bunifuPanel4.SuspendLayout();
@@ -148,6 +150,7 @@
             this.bunifuPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.bunifuPanel5.BorderRadius = 20;
             this.bunifuPanel5.BorderThickness = 0;
+            this.bunifuPanel5.Controls.Add(this.dashboard_lbl);
             this.bunifuPanel5.Location = new System.Drawing.Point(200, 31);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
@@ -1086,6 +1089,21 @@
             this.Dashboard_dash.UseDefaultRadiusAndThickness = true;
             this.Dashboard_dash.Click += new System.EventHandler(this.Dashboard_dash_Click_1);
             // 
+            // dashboard_lbl
+            // 
+            this.dashboard_lbl.AllowParentOverrides = false;
+            this.dashboard_lbl.AutoEllipsis = false;
+            this.dashboard_lbl.CursorType = null;
+            this.dashboard_lbl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboard_lbl.Location = new System.Drawing.Point(469, 294);
+            this.dashboard_lbl.Name = "dashboard_lbl";
+            this.dashboard_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dashboard_lbl.Size = new System.Drawing.Size(106, 30);
+            this.dashboard_lbl.TabIndex = 4;
+            this.dashboard_lbl.Text = "Dashboard";
+            this.dashboard_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.dashboard_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1105,6 +1123,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Navi_Load);
+            this.bunifuPanel5.ResumeLayout(false);
+            this.bunifuPanel5.PerformLayout();
             this.bunifuPanel6.ResumeLayout(false);
             this.bunifuPanel2.ResumeLayout(false);
             this.bunifuPanel4.ResumeLayout(false);
@@ -1144,5 +1164,6 @@
         private Bunifu.UI.WinForms.BunifuDatePicker Date_dash;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel6;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel5;
+        private Bunifu.UI.WinForms.BunifuLabel dashboard_lbl;
     }
 }

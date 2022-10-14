@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(sub_order));
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
-            this.Category_lbl = new Bunifu.UI.WinForms.BunifuLabel();
+            this.order_lbl = new Bunifu.UI.WinForms.BunifuLabel();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -91,20 +91,20 @@
             this.kryptonPalette1.HeaderStyles.HeaderForm.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonPalette1.HeaderStyles.HeaderForm.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
             // 
-            // Category_lbl
+            // order_lbl
             // 
-            this.Category_lbl.AllowParentOverrides = false;
-            this.Category_lbl.AutoEllipsis = false;
-            this.Category_lbl.CursorType = null;
-            this.Category_lbl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Category_lbl.Location = new System.Drawing.Point(420, 223);
-            this.Category_lbl.Name = "Category_lbl";
-            this.Category_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Category_lbl.Size = new System.Drawing.Size(56, 30);
-            this.Category_lbl.TabIndex = 1;
-            this.Category_lbl.Text = "Order";
-            this.Category_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.Category_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.order_lbl.AllowParentOverrides = false;
+            this.order_lbl.AutoEllipsis = false;
+            this.order_lbl.CursorType = null;
+            this.order_lbl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.order_lbl.Location = new System.Drawing.Point(469, 294);
+            this.order_lbl.Name = "order_lbl";
+            this.order_lbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.order_lbl.Size = new System.Drawing.Size(56, 30);
+            this.order_lbl.TabIndex = 1;
+            this.order_lbl.Text = "Order";
+            this.order_lbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.order_lbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // sub_order
             // 
@@ -112,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(1048, 611);
-            this.Controls.Add(this.Category_lbl);
+            this.Controls.Add(this.order_lbl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "sub_order";
             this.Palette = this.kryptonPalette1;
@@ -127,6 +127,6 @@
         #endregion
 
         private ComponentFactory.Krypton.Toolkit.KryptonPalette kryptonPalette1;
-        private Bunifu.UI.WinForms.BunifuLabel Category_lbl;
+        private Bunifu.UI.WinForms.BunifuLabel order_lbl;
     }
 }

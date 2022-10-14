@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bunifu.UI.WinForms;
 using ComponentFactory.Krypton.Toolkit;
 
 namespace WindowsFormsApp3
@@ -47,12 +48,12 @@ namespace WindowsFormsApp3
 
         private void bunifuButton7_Click(object sender, EventArgs e)
         {
-
+            loadform(new sub_settings());
         }
 
         private void bunifuButton8_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void bunifuPanel5_Click(object sender, EventArgs e)
@@ -76,7 +77,7 @@ namespace WindowsFormsApp3
 
         private void Dashboard_dash_Click_1(object sender, EventArgs e)
         {
-            
+            loadform(new sub_dashboard());
         }
 
         private void Category_dash_Click_1(object sender, EventArgs e)

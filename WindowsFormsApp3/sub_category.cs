@@ -22,5 +22,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void Category_lbl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
