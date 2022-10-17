@@ -156,6 +156,12 @@
     <Compile Include="sub_order.designer.cs">
       <DependentUpon>sub_order.cs</DependentUpon>
     </Compile>
+    <Compile Include="sub_orderhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_orderhistory.designer.cs">
+      <DependentUpon>sub_orderhistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="sub_products.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sub_order.resx">
       <DependentUpon>sub_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sub_orderhistory.resx">
+      <DependentUpon>sub_orderhistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sub_products.resx">
       <DependentUpon>sub_products.cs</DependentUpon>
