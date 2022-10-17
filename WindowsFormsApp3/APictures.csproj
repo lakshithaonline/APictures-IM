@@ -103,6 +103,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
       <HintPath>..\..\..\..\Desktop\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\..\..\Desktop\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
       <HintPath>..\..\..\..\Desktop\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
     </Reference>
@@ -141,6 +144,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="sub_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_customer.Designer.cs">
+      <DependentUpon>sub_customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Category_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -178,12 +187,6 @@
     </Compile>
     <Compile Include="sub_category.Designer.cs">
       <DependentUpon>sub_category.cs</DependentUpon>
-    </Compile>
-    <Compile Include="sub_customer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sub_customer.Designer.cs">
-      <DependentUpon>sub_customer.cs</DependentUpon>
     </Compile>
     <Compile Include="sub_dashboard.cs">
       <SubType>Form</SubType>
@@ -233,6 +236,9 @@
     <Compile Include="UserControls\Products_UC.Designer.cs">
       <DependentUpon>Products_UC.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sub_customer.resx">
+      <DependentUpon>sub_customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Dashboard_UC.resx">
       <DependentUpon>Dashboard_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,9 +261,6 @@
     </Compile>
     <EmbeddedResource Include="sub_category.resx">
       <DependentUpon>sub_category.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="sub_customer.resx">
-      <DependentUpon>sub_customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sub_dashboard.resx">
       <DependentUpon>sub_dashboard.cs</DependentUpon>
