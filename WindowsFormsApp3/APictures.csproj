@@ -156,6 +156,12 @@
     <Compile Include="sub_products.designer.cs">
       <DependentUpon>sub_products.cs</DependentUpon>
     </Compile>
+    <Compile Include="sub_settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_settings.designer.cs">
+      <DependentUpon>sub_settings.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Category_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -188,12 +194,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sub_category.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sub_category.Designer.cs">
-      <DependentUpon>sub_category.cs</DependentUpon>
-    </Compile>
     <Compile Include="sub_dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,12 +211,6 @@
     </Compile>
     <Compile Include="sub_orderhistory.Designer.cs">
       <DependentUpon>sub_orderhistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="sub_settings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sub_settings.Designer.cs">
-      <DependentUpon>sub_settings.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\OrderHistory_UC.cs">
       <SubType>UserControl</SubType>
@@ -242,6 +236,9 @@
     <EmbeddedResource Include="sub_products.resx">
       <DependentUpon>sub_products.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sub_settings.resx">
+      <DependentUpon>sub_settings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Dashboard_UC.resx">
       <DependentUpon>Dashboard_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -262,9 +259,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="sub_category.resx">
-      <DependentUpon>sub_category.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="sub_dashboard.resx">
       <DependentUpon>sub_dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -273,9 +267,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sub_orderhistory.resx">
       <DependentUpon>sub_orderhistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="sub_settings.resx">
-      <DependentUpon>sub_settings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
