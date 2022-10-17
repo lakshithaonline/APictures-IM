@@ -144,6 +144,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="sub_category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_category.designer.cs">
+      <DependentUpon>sub_category.cs</DependentUpon>
+    </Compile>
     <Compile Include="sub_customer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,9 @@
     <Compile Include="UserControls\Products_UC.Designer.cs">
       <DependentUpon>Products_UC.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sub_category.resx">
+      <DependentUpon>sub_category.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sub_customer.resx">
       <DependentUpon>sub_customer.cs</DependentUpon>
     </EmbeddedResource>
