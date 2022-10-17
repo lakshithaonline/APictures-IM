@@ -93,7 +93,7 @@ namespace WindowsFormsApp3
 
         private void Customer_dash_Click(object sender, EventArgs e)
         {
-            loadform(new sub_customer());
+       
         }
 
         private void Order_dash_Click(object sender, EventArgs e)
