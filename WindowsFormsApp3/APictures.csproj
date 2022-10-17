@@ -150,6 +150,12 @@
     <Compile Include="sub_customer.Designer.cs">
       <DependentUpon>sub_customer.cs</DependentUpon>
     </Compile>
+    <Compile Include="sub_products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub_products.designer.cs">
+      <DependentUpon>sub_products.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Category_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -206,12 +212,6 @@
     <Compile Include="sub_orderhistory.Designer.cs">
       <DependentUpon>sub_orderhistory.cs</DependentUpon>
     </Compile>
-    <Compile Include="sub_products.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="sub_products.Designer.cs">
-      <DependentUpon>sub_products.cs</DependentUpon>
-    </Compile>
     <Compile Include="sub_settings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -238,6 +238,9 @@
     </Compile>
     <EmbeddedResource Include="sub_customer.resx">
       <DependentUpon>sub_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sub_products.resx">
+      <DependentUpon>sub_products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Dashboard_UC.resx">
       <DependentUpon>Dashboard_UC.cs</DependentUpon>
@@ -270,9 +273,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sub_orderhistory.resx">
       <DependentUpon>sub_orderhistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="sub_products.resx">
-      <DependentUpon>sub_products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sub_settings.resx">
       <DependentUpon>sub_settings.cs</DependentUpon>
