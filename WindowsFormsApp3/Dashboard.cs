@@ -58,7 +58,12 @@ namespace WindowsFormsApp3
 
         private void bunifuPanel5_Click(object sender, EventArgs e)
         {
-
+           // sub_dashboard objForm = sub_dashboard.InstanceForm();
+            //objForm.TopLevel = false;
+            //Dashboard.Controls.Add(objForm);
+            //objForm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            //objForm.Dock = DockStyle.Fill;
+            //objForm.Show(); loadform(new sub_dashboard());
         }
 
         private void bunifuPanel6_Click(object sender, EventArgs e)
@@ -69,10 +74,6 @@ namespace WindowsFormsApp3
         private void bunifuPanel1_Click(object sender, EventArgs e)
         {
 
-        }
-        private void Category_dash_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void Dashboard_dash_Click_1(object sender, EventArgs e)
@@ -103,6 +104,11 @@ namespace WindowsFormsApp3
         private void OrderHistory_dash_Click(object sender, EventArgs e)
         {
             loadform(new sub_orderhistory());
+        }
+
+        private void dashboard_UC1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
