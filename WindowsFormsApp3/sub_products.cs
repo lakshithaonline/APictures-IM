@@ -27,5 +27,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void bunifuDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

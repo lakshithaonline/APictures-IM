@@ -42,5 +42,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
