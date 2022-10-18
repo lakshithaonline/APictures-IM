@@ -110,5 +110,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void dashboard_UC1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

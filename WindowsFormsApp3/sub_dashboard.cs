@@ -138,5 +138,10 @@ namespace WindowsFormsApp3
         {
             throw new NotImplementedException();
         }
+
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
