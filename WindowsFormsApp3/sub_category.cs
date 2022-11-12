@@ -64,6 +64,9 @@ namespace WindowsFormsApp3
         private void categinsertbutton1_Click(object sender, EventArgs e)
         {
 
+            /*
+            Connection with category table
+            */
             int categid = int.Parse(categ_id.Text);
             string categname = categ_name.Text;
             string categdescription = categ_description.Text;
