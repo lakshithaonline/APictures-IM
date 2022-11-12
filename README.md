@@ -13,7 +13,5 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 * <a href="https://drive.google.com/drive/folders/1PMDwb1widANBU6XGOvW16IBOMEugmNl-?usp=share_link">Project File</a>
 * <a href="Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
 
-***APictures Inventory Management***
+# Technologies Used
 
-
-Database/Apictures_IM_DB.rar
