@@ -152,6 +152,8 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Category Data Update Sussessfully!");
                 con.Close();
                 rundatasetprgram();
+                con.Open();
+                con.Close();
             }
             catch (Exception ex)
             {
