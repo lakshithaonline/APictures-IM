@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +30,9 @@ namespace WindowsFormsApp3
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Apictures_IM_DB.mdf;Integrated Security=True;Connect Timeout=30");
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-          
+          /*
+          connection with databse 
+          */
 
             con.Open();
             SqlDataAdapter sda = new SqlDataAdapter("select Count(*) from Users where Uname = '" + unametype1.Text + "' and Password = '" + password.Text + "' ", con);
@@ -137,5 +139,6 @@ namespace WindowsFormsApp3
         {
 
         }
+        
     }
 }
