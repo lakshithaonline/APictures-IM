@@ -12,17 +12,17 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 
 * Issues within the organization
    
-
 The Organization has faced many challenges due to manual data handling and the company's expansion, but with its management's support, it has found a way to overcome all the hurdles and achieve its goals. However, with the lockdown situation and economic crisis in Sri Lanka, they faced some problems due to a decrease in sales. Therefore, the management had to reduce the number of employees in the company. 
 
 With that being said, due to the staff minimization and rapid business expansion, APictures had to face some uncomfortable situations in the package delivery, customer handling, and order handling processes.  
 
- 
 * Suggested Solution 
 
 The APictures senior management has requested a solid solution to these issues from DevHuB Services. So, as an ERP specialist company, we have gathered some data from the management and stakeholders. After an inspection, we have decided to implement an Inventory management ERP modular solution to APictures.
 
 ***APictures Inventory Management***
+
+
 
 
 
