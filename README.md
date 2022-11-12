@@ -11,7 +11,9 @@ APictures is an independent, high-quality electronics and tech store in Sri Lank
 Our client has a wide selection of cameras, accessories, and high-end electronics available at low prices while maintaining high quality. By starting as a Photography and Printing business within the Central province of Sri Lanka, they have expanded to become a leading consumer electronics brand throughout the country, gaining a solid customer base throughout their 31 years of service excellence.
 
 * <a href="https://drive.google.com/drive/folders/1PMDwb1widANBU6XGOvW16IBOMEugmNl-?usp=share_link">Project File</a>
-* <a href="SQL - Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
+* <a href="Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
 
 ***APictures Inventory Management***
 
+
+Database/Apictures_IM_DB.rar
