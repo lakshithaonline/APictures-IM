@@ -21,7 +21,7 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 * .Net Framework 4.8 
 * XAMPP or Wamp (optional)
 
-2. import the database file - <a href="Database/Apictures_IM_DB.rar">APirtures IM DB - (.mdf)</a>
+2. import the database file - <a href="Database/Apictures_IM_DB.rar">APirtures IM DB - (.mdf)</a> *you need to re-link the database connection string one by one
 3. Download and unzip the project and open it in VS: <a href="https://bit.ly/3E6aA1o">Project File</a>
 4. Application Login Details 
    * username: Lakshitha 
