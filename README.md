@@ -13,5 +13,31 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 * <a href="https://drive.google.com/drive/folders/1PMDwb1widANBU6XGOvW16IBOMEugmNl-?usp=share_link">Project File</a>
 * <a href="Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
 
-# Technologies Used
+# Interface
+
+* Loading Screen
+<img src="Project_Content/Screen_Shots/Screenshot_2022-11-12 225736.png">
+
+* Login
+<img src="Project_Screenshots/Login Pages/05.png">
+
+* Dashboard 
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+* Category 
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+* Product
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+* Customer Management 
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+* Order Management 
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+* Order History 
+<img src="Project_Screenshots/Home.jsp/75.png">
+
+
 
