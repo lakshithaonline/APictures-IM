@@ -16,28 +16,32 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 # Interface
 
 * Loading Screen
-<img src="Project Content/Screen Shots/Screenshot 2022-11-12 225736.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 001404.png">
 
 * Login
-<img src="Project_Screenshots/Login Pages/05.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-12 225844.png">
 
 * Dashboard 
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 001543.png">
 
 * Category 
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 001812.png">
 
 * Product
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 001911.png">
 
 * Customer Management 
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 003017.png">
 
 * Order Management 
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 002226.png">
 
 * Order History 
-<img src="Project_Screenshots/Home.jsp/75.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 002552.png">
+
+* Admin 
+<img src="Project Content/Screen Shots/Screenshot 2022-11-13 002653.png">
+
 
 
 
