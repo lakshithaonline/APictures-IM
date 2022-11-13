@@ -13,6 +13,20 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 * <a href="https://drive.google.com/drive/folders/1PMDwb1widANBU6XGOvW16IBOMEugmNl-?usp=share_link">Project File</a>
 * <a href="Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
 
+# How to run
+
+1- Required software:
+
+* Visuel Studio
+* .Net Framework 4.8 
+* XAMPP or Wamp (optional)
+
+2. import the database file (.MDF) - <a href="Database/Apictures_IM_DB.rar">SQL</a>
+3. Download and unzip the project and open it in VS: <a href="https://drive.google.com/file/d/1Z-QOtPUB-BeIS2IWo5aYbIEYxN5avdzv/view?usp=sharing">Project File</a>
+4. Application Login Details 
+   * username: Lakshitha 
+   * password: admin
+
 # Interface
 
 * Loading Screen
