@@ -16,7 +16,7 @@ Our client has a wide selection of cameras, accessories, and high-end electronic
 # Interface
 
 * Loading Screen
-<img src="Project_Content/Screen_Shots/Screenshot_2022-11-12 225736.png">
+<img src="Project Content/Screen Shots/Screenshot 2022-11-12 225736.png">
 
 * Login
 <img src="Project_Screenshots/Login Pages/05.png">
