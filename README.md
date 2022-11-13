@@ -4,7 +4,7 @@
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
 [![Welcome](https://img.shields.io/badge/Enterprise%20System-Final%20Project-orange)](#)
 
-***APictures***
+# APictures
 
 APictures is an independent, high-quality electronics and tech store in Sri Lanka. It focuses on maintaining trustworthy professionalism in all areas by offering a wide variety of professional photographic equipment, video gear, consumer electronics, and more tech equipment.
 
