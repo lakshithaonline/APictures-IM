@@ -8,8 +8,11 @@
 
 APictures is an independent, high-quality electronics and tech store in Sri Lanka. It focuses on maintaining trustworthy professionalism in all areas by offering a wide variety of professional photographic equipment, video gear, consumer electronics, and more tech equipment.
 
-Our client has a wide selection of cameras, accessories, and high-end electronics available at low prices while maintaining high quality. By starting as a Photography and Printing business within the Central province of Sri Lanka, they have expanded to become a leading consumer electronics brand throughout the country, gaining a solid customer base throughout their 31 years of service excellence.
+The system we developed for APictures is an inventory management system that will help them keep track of their stock and improve their business. The system includes an inventory database that will store information on all the products in stock and a user interface allowing employees to add, remove, and update product information quickly. Additionally, the system will generate reports that help APictures identify areas where they need to improve their inventory management.
 
+The APictures-IM is a fully functional sub-ERP application built on the .NET Framework. This application has facilitated five inventory management facilities to the APicture so that the management can take full advantage of it. 
+
+* <a href="https://drive.google.com/drive/folders/1bUFFnWYCVO9p2nf1blWX5ZOxz0_P3TzH?usp=sharing">Project Report</a>
 * <a href="https://drive.google.com/drive/folders/1PMDwb1widANBU6XGOvW16IBOMEugmNl-?usp=share_link">Project File</a>
 * <a href="Database/Apictures_IM_DB.rar">SQL - Please refer <b>How to run</b> before import</a>
 
